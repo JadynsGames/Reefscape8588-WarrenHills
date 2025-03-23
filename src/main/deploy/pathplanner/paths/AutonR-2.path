@@ -3,13 +3,13 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 1.196590909090909,
-        "y": 7.141122159090909
+        "x": 0.9273579545454546,
+        "y": 7.430298295454545
       },
       "prevControl": null,
       "nextControl": {
-        "x": 2.3300284090909096,
-        "y": 5.934559659090908
+        "x": 2.060795454545455,
+        "y": 6.2237357954545445
       },
       "isLocked": false,
       "linkedName": "Step 2"
@@ -31,7 +31,19 @@
   "rotationTargets": [],
   "constraintZones": [],
   "pointTowardsZones": [],
-  "eventMarkers": [],
+  "eventMarkers": [
+    {
+      "name": "ReleaseCoral",
+      "waypointRelativePos": 1.0,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "ReleaseCoral"
+        }
+      }
+    }
+  ],
   "globalConstraints": {
     "maxVelocity": 3.0,
     "maxAcceleration": 2.0,

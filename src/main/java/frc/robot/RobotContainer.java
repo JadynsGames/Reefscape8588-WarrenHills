@@ -94,6 +94,7 @@ public class RobotContainer {
             NamedCommands.registerCommand("DriveABit",m_robotDrive.driveABitCommand());
             NamedCommands.registerCommand("DriveABitBack",m_robotDrive.driveABitBackCommand());
             NamedCommands.registerCommand("StopMoving",m_robotDrive.stopMovingCommand());
+            NamedCommands.registerCommand("FastCoralDrop", m_dumpster.fastCoralDropCommand());
 
             autoChooser = AutoBuilder.buildAutoChooser();
             SmartDashboard.putData("Auto Mode", autoChooser); 
